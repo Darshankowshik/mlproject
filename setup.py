@@ -2,7 +2,7 @@ from setuptools import find_packages,setup
 from typing import List
 
 autorun='-e .'
-
+#-e . will automatically trigger setup.py
 #it returns a list of requirements
 def get_requirements(file_path:str)->List[str]:
     requirements=[]
